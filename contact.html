@@ -3,44 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Our Location</h2>
-            <p>123 Main Street, Food Town, FT 54321</p>
-            <audio controls>
-                <source src="One of Dave's favorite movie food scenes is....mp4" type="audio/mpeg">
-            </audio>
-        </section>
-
-        <section>
-            <h2>Contact Form</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
-
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea><br><br>
-
-                <input type="submit" value="Send Message">
-            </form>
-        </section>
-    </main>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>For any inconvinience do not hesitate to contact us</p>
+        <form action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
 </body>
-</html>
+</html>    
